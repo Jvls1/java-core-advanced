@@ -1,15 +1,20 @@
-import reflection.Cat;
-import customannotation.CodeExample;
+import customannotation.CodeExampleAnnotation;
+import reflection.CodeExampleReflection;
 
 import java.lang.reflect.InvocationTargetException;
 
 public class Main {
 
-    public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
-        customAnnotationExample();
+    public static void main(String[] args) throws Exception {
+        //customAnnotationExample();
+        reflectionExample();
     }
 
     private static void customAnnotationExample() throws InvocationTargetException, IllegalAccessException {
-        CodeExample.customAnnotationTest();
+        CodeExampleAnnotation.customAnnotationTest();
+    }
+
+    private static void reflectionExample() throws InvocationTargetException, IllegalAccessException {
+        CodeExampleReflection.customAnnotationTest();
     }
 }

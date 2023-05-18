@@ -35,6 +35,6 @@ public class Cat {
     }
 
     private static void thisIsAPrivateStaticMethod() {
-        System.out.println("I'm public and static!");
+        System.out.println("I'm private and static!");
     }
 }

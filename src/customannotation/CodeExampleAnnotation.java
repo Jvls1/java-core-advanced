@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class CodeExample {
+public class CodeExampleAnnotation {
 
     public static void customAnnotationTest() throws InvocationTargetException, IllegalAccessException {
         Cat myCat = new Cat("Saint Peter");
