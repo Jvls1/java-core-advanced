@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-custom-annotation.iml" filepath="$PROJECT_DIR$/java-custom-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-core-advanced.iml" filepath="$PROJECT_DIR$/java-core-advanced.iml" />
     </modules>
   </component>
 </project>
